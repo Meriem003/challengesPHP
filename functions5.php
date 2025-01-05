@@ -1,6 +1,6 @@
 <?php
-function largestNum($num){
-    $largest = $num[0];
+function largestNum($numbers){
+    $largest = $numbers[0];
     foreach($numbers as $num){
         if($largest < $num){
             $largest = $num;
